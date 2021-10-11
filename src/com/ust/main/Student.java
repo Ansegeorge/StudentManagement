@@ -48,7 +48,7 @@ public  class Student implements Comparable<Student> {
 	public int gettotalmarks() {
 		return totalmarks;
 	}
-	public void settotalmarks(long mobile) {
+	public void settotalmarks(int  totalmarks) {
 		this.totalmarks = totalmarks;
 	}
 	@Override
